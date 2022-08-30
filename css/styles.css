@@ -1,0 +1,225 @@
+body { 
+    font-family:'Roboto';   
+  }
+a {text-decoration: none;}
+
+li {
+    list-style-type: none; /* Убираем маркеры */
+}
+
+
+.dio-a , .dio-b , .dio-c , .mail-a , .mail-b , .box-r, .box-t{
+    font-family: Roboto;
+    font-weight: 500px;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.dio-b , .dio-c, .kont-a, .kont-c {
+    color: #212121;
+}
+
+.dio-a:hover  , .dio-b:hover  , .dio-c:hover  , .mail-a:hover  , .mail-b:hover, .adr-b:hover, .adr-c:hover , .bot:hover {
+      box-shadow: 0 0 0 2px lightskyblue;
+}
+
+.dio-a:focus , .dio-b:focus , .kont-b, .dio-c:focus , .mail-a:focus , .mail-b:focus , .bot:focus, .adr-b:focus, .adr-c:focus {
+    color: #2196F3;
+}
+
+.dio-a {
+    color:#2196F3;
+}
+
+ 
+.hero-big {
+    font-family: Roboto;
+    font-weight: 900px;;
+    font-size: 44px;
+    line-height: 1.36;
+    color:  #FFFFFF;
+    text-align: center;
+    padding: 170px 452px 0px 452px;
+}
+.hero {
+    background-color :#2F303A;
+    height: 600px;
+    text-align: center;
+
+}
+
+.ten {
+    width: 1600px;
+    height: 252px;
+    background-color : #2F303A;}  
+.logo { 
+    font-family:Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.38;
+    color:  #000000;
+}   
+.logo-web, .lo-b{
+    color:
+    #2196F3;
+} 
+
+.lo-a , .logo-wite { color:#FFFFFF ;
+
+}
+
+.comand {
+
+    height: 648px;
+    background-color:  #F5F4FA ;
+    padding-top : 94px ;
+}
+.comone {  display: flex;
+    text-align: center; 
+    margin: 15px;
+    justify-content: center;
+}
+.bend {
+    font-family: Roboto;
+    font-weight: 700px;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center; 
+}
+
+.tehnology {
+    display: flex;  
+    justify-content: center;
+}
+.foto { display: flex;
+    
+   justify-content: space-around ;
+  
+}
+.name ,  .grey {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.17;
+    color:  #212121;
+}
+.name-pro {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.17;
+    color:  #757575;
+}
+.sect {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    color: #212121;
+    text-align: center; 
+}
+.det-a {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+    color: #212121;
+}
+.det-b {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #757575;
+    width: 270px ;
+    height: 72px;
+}
+.adr-a , .adr-b, .adr-c, .info-a, .info-b, .info-c {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color:  #FFFFFF;
+    font-style: normal;
+}
+
+    
+
+.box-r, .box-t {
+    display: flex;
+    gap: 50px 30px;
+}
+
+
+.bot-x {
+    width: 216px;
+    height: 50px;
+    top: 430px;
+    left: 692px;
+    background-color: #2196F3;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    color:  #FFFFFF;
+}
+.bot-x:hover {
+    color: #2196F3;
+}
+.bot-x:focus {
+    color: #2F303A;
+}
+.section , .section-q {
+    visibility: hidden;
+}
+.adress {
+
+    height: 252px;
+    background: #2F303A;
+}
+
+.but-sek {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grey { 
+    width:100px;
+    height:26px;
+    top:180px;
+    left:979px;
+    background: #F5F4FA;
+    margin: 10px;
+}
+.box , .box-w {
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+    gap: 30px 30px;
+    justify-content: center; }
+.prom-a, .prom-b, .prom-c, .prom-d, .prom-i, .prom-j, .prom-k, .prom-l, .prom-m {
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.88;
+        color: #757575;
+}
+.prof-m, .prof-l, .prof-k, .prof-j, .prof-i, .prof-d .prof-c, .prof-b, .prof-a {
+    font-family: Roboto;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        color: #212121;
+}
+.kont-a:hover , .kont-b:hover , .kont-c:hover , .kont-d:hover , .kont-i:hover {
+    box-shadow: 0 0 0 2px lightskyblue;
+}
+.kont-a:focus, .kont-b:focus , .kont-c:focus, .kont-d:focus , .kont-i:focus {
+    color: #2196F3;
+}
+.grey:hover , .info-b:hover, .info-c:hover {
+    box-shadow: 0 0 0 2px lightskyblue;
+}
+.grey:focus, .info-b:focus, .info-c:focus {
+    color: #2196F3;
+}
