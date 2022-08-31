@@ -74,7 +74,7 @@ li {
     background-color:  #F5F4FA ;
     padding-top : 94px ;
 }
-.comone {  display: flex;
+.comone ,.frend {  display: flex;
     text-align: center; 
     margin: 15px;
     justify-content: center;
@@ -169,7 +169,7 @@ li {
 .bot-x:focus {
     color: #2F303A;
 }
-.section , .section-q {
+.section , .section-q ,.sec-q {
     visibility: hidden;
 }
 .adress {
@@ -217,9 +217,9 @@ li {
 .kont-a:focus, .kont-b:focus , .kont-c:focus, .kont-d:focus , .kont-i:focus {
     color: #2196F3;
 }
-.grey:hover , .info-b:hover, .info-c:hover {
+.grey:hover , .info-b:hover, .info-c:hover ,.info-a:hover ,.adr-a:hover {
     box-shadow: 0 0 0 2px lightskyblue;
 }
-.grey:focus, .info-b:focus, .info-c:focus {
+.grey:focus, .info-b:focus, .info-c:focus , .info-a:focus ,.adr-a:focus {
     color: #2196F3;
 }
