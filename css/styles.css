@@ -1,11 +1,16 @@
 body { 
-    font-family:'Roboto';   
-  }
-a {text-decoration: none;}
+    font-family:'Roboto', 'Times New Roman',  sans-serif;
+}
+a { 
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+   }
 
 li {
     list-style-type: none; /* Убираем маркеры */
 }
+h1 { 
+    text-transform: uppercase; /* Заглавные буквы */
+   }
 
 
 .dio-a , .dio-b , .dio-c , .mail-a , .mail-b , .box-r, .box-t{
@@ -18,19 +23,25 @@ li {
 .dio-b , .dio-c, .kont-a, .kont-c {
     color: #212121;
 }
-
-.dio-a:hover  , .dio-b:hover  , .dio-c:hover  , .mail-a:hover  , .mail-b:hover, .adr-b:hover, .adr-c:hover , .bot:hover {
-      box-shadow: 0 0 0 2px lightskyblue;
+.dio-c:hover , .logo:hover , .dio-a:hover, .dio-b:hover, .mail-a:hover , .mail-b:hover, .adr-a:hover, .adr-b:hover, .adr-c:hover,
+.kont-a:hover, .kont-c:hover, .kont-b:hover, .kont-d:hover, .kont-i:hover, .info-c:hover, .info-b:hover, .grey:hover {
+    text-decoration: underline #2196F3 ;
+}
+.dio-c:focus , .logo:focus , .dio-a:focus, .dio-b:focus, .mail-a:focus, .mail-b:focus, .adr-a:focus, .adr-b:focus, .adr-c:focus,
+.kont-a:focus, .kont-c:focus, .kont-b:focus, .kont-d:focus, .kont-i:focus, .info-c:focus, .info-b:focus, .grey:focus {
+    text-decoration: underline #2196F3 ;
 }
 
-.dio-a:focus , .dio-b:focus , .kont-b, .dio-c:focus , .mail-a:focus , .mail-b:focus , .bot:focus, .adr-b:focus, .adr-c:focus {
-    color: #2196F3;
+.dio-c:focus  {
+    text-decoration: underline #2196F3 ;
+    
 }
 
-.dio-a {
+.dio-a, .kont-b, .kont-d {
     color:#2196F3;
 }
-
+.kont-i, .mail-b {color: 
+    #757575;}
  
 .hero-big {
     font-family: Roboto;
@@ -74,7 +85,7 @@ li {
     background-color:  #F5F4FA ;
     padding-top : 94px ;
 }
-.comone ,.frend {  display: flex;
+.comone {  display: flex;
     text-align: center; 
     margin: 15px;
     justify-content: center;
@@ -87,7 +98,7 @@ li {
     text-align: center; 
 }
 
-.tehnology {
+.tehnology  {
     display: flex;  
     justify-content: center;
 }
@@ -96,7 +107,7 @@ li {
    justify-content: space-around ;
   
 }
-.name ,  .grey {
+.name , .grey {
     font-family: Roboto;
     font-weight: 500;
     font-size: 16px;
@@ -141,6 +152,7 @@ li {
     line-height: 1.71;
     color:  #FFFFFF;
     font-style: normal;
+    opacity: 0.6;
 }
 
     
@@ -164,12 +176,12 @@ li {
     color:  #FFFFFF;
 }
 .bot-x:hover {
-    color: #2196F3;
+    color:  #2F303A;
 }
 .bot-x:focus {
-    color: #2F303A;
+    color: #FFFFFF;
 }
-.section , .section-q ,.sec-q {
+.section , .section-q {
     visibility: hidden;
 }
 .adress {
@@ -177,8 +189,12 @@ li {
     height: 252px;
     background: #2F303A;
 }
+.frend { 
+    display: flex;
+    justify-content:space-around;
+}
 
-.but-sek {
+.but-sek  {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -191,6 +207,7 @@ li {
     left:979px;
     background: #F5F4FA;
     margin: 10px;
+    border: none; 
 }
 .box , .box-w {
     display: grid;
@@ -211,15 +228,9 @@ li {
         line-height: 2;
         color: #212121;
 }
-.kont-a:hover , .kont-b:hover , .kont-c:hover , .kont-d:hover , .kont-i:hover {
-    box-shadow: 0 0 0 2px lightskyblue;
+
+.name , .name-pro { text-align: center;
 }
-.kont-a:focus, .kont-b:focus , .kont-c:focus, .kont-d:focus , .kont-i:focus {
-    color: #2196F3;
-}
-.grey:hover , .info-b:hover, .info-c:hover ,.info-a:hover ,.adr-a:hover {
-    box-shadow: 0 0 0 2px lightskyblue;
-}
-.grey:focus, .info-b:focus, .info-c:focus , .info-a:focus ,.adr-a:focus {
-    color: #2196F3;
-}
+.sec-q{
+    visibility: hidden;}
+
